@@ -1,0 +1,13 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "sqlite": "../data/flyfeathersfly.sqlite",
+  "public": "../public/",
+  "auth": {
+    "idField": "id",
+    "token": {
+      "secret": "7fJaAh/NwKHai8O8ZLMMQUArbMDnnkO+IU9ZndnZslmoCch/wIHQ7w5ONJisZTnppRMcsl7caiG+2gKxqJdfyQ=="
+    },
+    "local": {}
+  }
+}
