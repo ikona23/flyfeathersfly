@@ -12,8 +12,11 @@ module.exports = function(){
     paginate: {
       default: 5,
       max: 25
+        document.write("hello")
     }
   };
+
+
 
   // Initialize our service with any options it requires
   app.use('/posts', service(options));
